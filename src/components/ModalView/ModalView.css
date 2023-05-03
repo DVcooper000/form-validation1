@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.modal-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.img-main {
+  background-color: #f2877d;
+  width: 50%;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  padding-left: 2rem;
+}
+@media (max-width: 767px) {
+  .img-main {
+    display: none;
+  }
+}
